@@ -8,7 +8,6 @@ public class Hello {
 
 
         //Variables
-
         int myNumber = 24;
         int mySecondNumber = 12;
         int myThirdNumber = 6;
