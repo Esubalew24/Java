@@ -9,7 +9,6 @@ public class Main {
 
         //Minimum and Maximum numbers in int data type
         // int has a width of 32
-
         int myMinValue = -2147483648;
         int myMaxValue = 2147483647;
         System.out.println(myValue);
