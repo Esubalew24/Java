@@ -18,17 +18,27 @@ public class Main {
 
         byte minByteNumber = -128;
         byte maxByteNumber = 127;
+        byte someNumber = (byte) (maxByteNumber/2);
+        System.out.println(someNumber);
 
         //Short Data type
         //Short has a width of 16
         short minShortNumber = -32768;
         short maxShortNumber = 32767;
+        short shortNumber = (byte)(minShortNumber/4);
+        System.out.println(shortNumber);
 
         //Long min and max value
         // Long has a width of 64
         long minLongNumber = -9_223_372_036_854_775_808L;
         long maxLongNumber = 9_223_372_036_854_775_807L;
 
+        // Create a variable of type long, and make it equal to 5000 + 10 times the sum of the byte, plus the short plus the int.
+        byte byteNumber = 12;
+        short shortNum = 500;
+        int integerNumber = 100;
 
+        long solution =  5000 + 10 * (byteNumber + shortNum + integerNumber);
+        System.out.println("Total= " + solution);
     }
 }
