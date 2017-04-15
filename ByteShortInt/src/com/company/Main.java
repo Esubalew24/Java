@@ -38,7 +38,28 @@ public class Main {
         short shortNum = 500;
         int integerNumber = 100;
 
-        long solution =  5000 + 10 * (byteNumber + shortNum + integerNumber);
-        System.out.println("Total= " + solution);
+        long total =  5000 + 10 * (byteNumber + shortNum + integerNumber);
+        short mySolution = (short) (5000 + 10 * (byteNumber + shortNum + integerNumber));
+        System.out.println("Total Number= " + total);
+        System.out.println("Total= " + mySolution);
+
+        // float and Double
+
+        int myIntValue = 5 /2;
+        float myFloatValue1 = 5f / 2f;
+        float myFloatValue2 = (float) 5.25;
+        double myDoubleValue = 5.25 /3d;
+        System.out.println("MyIntValue = " + myIntValue);
+        System.out.println("MyFloatValue = " + myFloatValue1);
+        System.out.println("MyDoubleValue = " + myDoubleValue);
+
+        // Challenge
+
+        double numberOfPounds = 50;
+        double numberOfKilograms = numberOfPounds * 0.45359237;
+        System.out.println("Number of Kilograms = " + numberOfKilograms);
+
+
+
     }
 }
